@@ -1,0 +1,53 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    background-color: rgb(128, 221, 85);
+    border:solid;
+}
+
+header{
+    border:solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 5px;
+
+}
+
+#header-img{
+    border:none;
+    width: 100px;
+ 
+}
+
+h1{
+    border:solid;
+}
+
+nav{
+    border:solid;
+}
+a{
+    border:solid;
+}
+
+iframe{
+    border:solid;
+    width: 400px;
+    height: 200px;
+}
+
+form{
+    border:solid;
+
+}
+
+label{
+    border:solid;
+}
+
+input{
+    border:solid;
+}
