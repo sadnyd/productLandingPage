@@ -11,19 +11,24 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0px;
+    margin: 2px;
     padding: 5px;
 
 }
 
-#header-img{
-    border:none;
-    width: 100px;
+img{
+    border:solid;
+    margin: 2px;
+    padding: 2px;
+    width: 150px;
  
 }
 
 h1{
     border:solid;
+    margin:2px;
+    padding:2px;
+
 }
 
 nav{
@@ -31,6 +36,8 @@ nav{
 }
 a{
     border:solid;
+    text-decoration: none;
+    color: black;
 }
 
 iframe{
@@ -39,15 +46,40 @@ iframe{
     height: 200px;
 }
 
-form{
+#vdo-div{
+    display: flex;
+    border: solid blue;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 2px;
+
+}
+
+#form{
     border:solid;
+    display:flex ;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2px;
+    margin: 2px;
+
 
 }
 
 label{
     border:solid;
+    padding: 2px;
+    margin: 2px;
 }
 
 input{
     border:solid;
+    padding: 2px;
+    margin: 2px;
+}
+
+footer{
+    text-align: center;
 }
